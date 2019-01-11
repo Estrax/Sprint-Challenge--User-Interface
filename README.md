@@ -84,7 +84,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [x] box6: `forestgreen`
 * [x] box7: `darkorchid`
 * [x] box8: `hotpink`
-* [ ] box9: `indigo`
+* [x] box9: `indigo`
 * [x] box10: `dodgerblue`
 
 ### About Page
