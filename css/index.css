@@ -223,7 +223,7 @@ header img {
     color: black;
 }
 
-.about-page .top-content .text-container {
+.about-page .top-content .text-container, .contact-page .top-content .text-container {
     width: 98%;
     padding: 0 10px 20px;
 }
@@ -444,4 +444,49 @@ header img {
 
 .box:last-child {
     animation: slideRight 1.3s forwards ease-in-out;
+}
+
+.contact-form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+input[type=text], input[type=email], textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px 0;
+    resize: vertical;
+}
+
+textarea {
+    height: 140px;
+}
+
+input[type=submit] {
+    background: black;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@keyframes bg_formsubmit {
+    0% {
+        background: black;
+    }
+
+    100% {
+        background: red;
+    }
+}
+
+input[type=submit]:hover {
+    animation: bg_formsubmit 0.5s forwards;
 }
