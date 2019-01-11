@@ -42,6 +42,12 @@ Semantic HTML is a set of tags being used to introduce the meaning to the webpag
 
 3. What are the 4 areas of the box model?
 
+The four areaas of both model are:
+- Content
+- Padding (inside the border, outside of content)
+- Border (between padding area and margin area)
+- Margin (outside of border)
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 5. Explain why git is valuable to a team of developers.
