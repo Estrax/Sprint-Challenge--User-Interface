@@ -222,3 +222,8 @@ header img {
     text-decoration: none;
     color: black;
 }
+
+.about-page .top-content .text-container {
+    width: 98%;
+    padding: 0 10px 20px;
+}
