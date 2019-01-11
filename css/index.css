@@ -227,3 +227,29 @@ header img {
     width: 98%;
     padding: 0 10px 20px;
 }
+
+.about-page .subjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-page .subjects .description {
+    width: 46%;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .subjects .description h2 {
+    padding-top: 20px;
+}
+
+.about-page .subjects .description button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+}
