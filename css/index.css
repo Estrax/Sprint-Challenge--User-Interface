@@ -178,3 +178,7 @@ footer nav a {
 .middle-content .boxes .box:nth-child(7) {
     background: darkorchid;
 }
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
