@@ -231,7 +231,7 @@ header img {
 .about-page .subjects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 20px;
 }
 
@@ -252,4 +252,9 @@ header img {
     border-radius: 10px;
     border: 2px solid black;
     color: black;
+}
+
+.about-page .bottom-content .text-container {
+    width: 100%;
+    padding-bottom: 20px;
 }
