@@ -223,30 +223,36 @@ header img {
     color: black;
 }
 
-.about-page .top-content .text-container, .contact-page .top-content .text-container {
+.about-page .top-content .text-container,
+.contact-page .top-content .text-container,
+.blog-page .top-content .text-container {
     width: 98%;
     padding: 0 10px 20px;
 }
 
-.about-page .subjects {
+.about-page .subjects,
+.blog-page .subjects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
 }
 
-.about-page .subjects .description {
+.about-page .subjects .description,
+.blog-page .subjects .description {
     width: 46%;
     padding-bottom: 20px;
     margin-bottom: 60px;
     border-bottom: 1px dashed black;
 }
 
-.about-page .subjects .description h2 {
+.about-page .subjects .description h2,
+.blog-page .subjects .description h2 {
     padding-top: 20px;
 }
 
-.about-page .subjects .description button {
+.about-page .subjects .description button,
+.blog-page .subjects .description button {
     margin-top: 20px;
     padding: 10px 20px;
     border-radius: 10px;
@@ -254,7 +260,8 @@ header img {
     color: black;
 }
 
-.about-page .bottom-content .text-container {
+.about-page .bottom-content .text-container,
+.blog-page .bottom-content .text-container {
     width: 100%;
     padding-bottom: 20px;
 }
@@ -264,34 +271,43 @@ header img {
     width: auto;
 }
 
+/* ========== Lukasz Siatka - stretch 1 - responsiveness ========== */
+
 @media screen and (max-width: 840px) {
-    .about-page .subjects {
+    .about-page .subjects,
+    .blog-page .subjects {
         margin: 0 auto;
         justify-content: center;
     }
 
-    .about-page .subjects .description {
+    .about-page .subjects .description,
+    .blog-page .subjects .description {
         width: 80%;
-        padding: 20%;
+        margin: 0 auto;
+        padding: 20px;
         justify-content: center;
     }
 
-    .about-page .subjects .description h2 {
+    .about-page .subjects .description h2,
+    .blog-page .subjects .description h2 {
         text-align: center;
         padding-top: 20px;
     }
 
-    .about-page .subjects .description p {
+    .about-page .subjects .description p,
+    .blog-page .subjects .description p {
         text-align: center;
     }
 
-    .about-page .subjects .description img {
+    .about-page .subjects .description img,
+    .blog-page .subjects .description img {
         display: block;
         width: 100%;
         height: auto;
     }
 
-    .about-page .subjects .description button {
+    .about-page .subjects .description button,
+    .blog-page .subjects .description button {
         width: 100%;
     }
 
@@ -365,6 +381,8 @@ header img {
         width: 50%;
     }
 }
+
+/* ========== Lukasz Siatka - stretch 2 - animations ========== */
 
 @keyframes zoom_anim {
     0% {
@@ -446,6 +464,8 @@ header img {
     animation: slideRight 1.3s forwards ease-in-out;
 }
 
+/* ========== Lukasz Siatka - stretch 3 - contact form ========== */
+
 .contact-form {
     width: 80%;
     display: flex;
@@ -489,4 +509,43 @@ input[type=submit] {
 
 input[type=submit]:hover {
     animation: bg_formsubmit 0.5s forwards;
+}
+
+/* ========== Lukasz Siatka - stretch 4 - additional page (blog) ========== */
+/* ========== some of the changes added above in the responsiveness section ========== */
+
+.blog-page .subjects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-page .subjects .description {
+    width: 30%;
+}
+
+.blog-page .subjects .description img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 840px) { 
+    .blog-page .subjects .description {
+        width: 45%;
+        margin: 0 auto;
+        padding: 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .blog-page .subjects .description {
+        width: 80%;
+    }
+}
+
+.blog-page .subjects .description:nth-child(odd) {
+    animation: slideLeft 1s forwards ease-in-out;
+}
+
+.blog-page .subjects .description:nth-child(even) {
+    animation: slideRight 1s forwards ease-in-out;
 }
