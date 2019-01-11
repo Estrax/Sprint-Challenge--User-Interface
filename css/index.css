@@ -258,3 +258,87 @@ header img {
     width: 100%;
     padding-bottom: 20px;
 }
+
+.container {
+    max-width: 800px;
+    width: auto;
+}
+
+@media screen and (max-width: 840px) {
+    .about-page .subjects {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .about-page .subjects .description {
+        width: 80%;
+        padding: 20%;
+        justify-content: center;
+    }
+
+    .about-page .subjects .description h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .about-page .subjects .description p {
+        text-align: center;
+    }
+
+    .about-page .subjects .description img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .about-page .subjects .description button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation nav, footer nav {
+        width: 80%;
+        align-self: center;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+
+    .navigation img {
+        align-self: center;
+    }
+
+    .top-content h2, .bottom-content h2, .top-content p, .bottom-content p {
+        text-align: center;
+    }
+
+    .top-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .top-content .text-container {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-content .text-container {
+        padding: 20px 0;
+    }
+}
