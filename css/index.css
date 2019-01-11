@@ -144,3 +144,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ========== Lukasz Siatka ========== */
+
+.middle-content .boxes .box:first-child {
+    background: teal;
+}
