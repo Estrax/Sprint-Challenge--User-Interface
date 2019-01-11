@@ -150,3 +150,7 @@ footer nav a {
 .middle-content .boxes .box:first-child {
     background: teal;
 }
+
+.middle-content .boxes .box:last-child {
+    background: dodgerblue;
+}
