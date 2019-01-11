@@ -54,6 +54,8 @@ While placed on a flexbox container, it allows for alignment on the cross axis.
 
 5. Explain why git is valuable to a team of developers.
 
+Git allows for an efficient versioning of files. This VCS (Version Control System) makes the whole distributed teamwork easier by storing the changes in code. It allows the whole team to keep their codebase synchronized in the single source of truth with multiple branches, so it reduces the chance of everyone having the different code they work on to expand and deliver functionalities. It also allows for really nice management of versions of for example APIs.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
