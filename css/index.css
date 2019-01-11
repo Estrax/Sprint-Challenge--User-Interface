@@ -172,5 +172,9 @@ footer nav a {
 }
 
 .middle-content .boxes .box:nth-child(6) {
-    background: crimson;
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
 }
