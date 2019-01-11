@@ -38,6 +38,8 @@ Semantic HTML is a set of tags being used to introduce the meaning to the webpag
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+```display: block;``` and ```display: inline;``` are both the box-model modifiers. The main difference between them is that block model supports ```margin``` and ```padding``` on all the sides of the object, while the inline model supports only left and right, both padding and margin.
+
 3. What are the 4 areas of the box model?
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
