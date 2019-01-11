@@ -294,6 +294,19 @@ header img {
     .about-page .subjects .description button {
         width: 100%;
     }
+
+    .middle-content h2 {
+        text-align: center;
+    }
+
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .middle-content .boxes .box {
+        width: 25%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -340,5 +353,15 @@ header img {
 
     .bottom-content .text-container {
         padding: 20px 0;
+    }
+
+    .middle-content .boxes .box {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .middle-content .boxes .box {
+        width: 50%;
     }
 }
